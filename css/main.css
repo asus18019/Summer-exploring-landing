@@ -10,6 +10,7 @@
 }
 
 nav {
+    z-index: 10;
     width: 90%;
     display: flex;
     justify-content: space-between;
@@ -76,7 +77,8 @@ nav {
 }
 
 .welcome-content {
-    z-index: -1;
+    position: relative;
+    /*z-index: -1;*/
     /*position: relative;*/
     display: flex;
     justify-content: center;
@@ -467,6 +469,7 @@ nav {
 
 .quote {
     max-width: 350px;
+    z-index: 10;
 }
 
 
@@ -490,6 +493,7 @@ nav {
 .main-quote {
     margin-top: 150px;
     text-align: center;
+    z-index: 10;
 }
 
 .main-quote h1{
@@ -519,7 +523,7 @@ nav {
 }
 
 .quotes-shadow {
-    z-index: -1;
+    /*z-index: -1;*/
     position: absolute;
     transform: scale(-1, 1);
     right: 0;
@@ -618,7 +622,7 @@ nav {
  */
 
 footer {
-    min-height: 55vh;
+    min-height: 35vh;
     background-color: #7f7770;
     display: flex;
     justify-content: center;
